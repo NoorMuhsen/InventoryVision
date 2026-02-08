@@ -1,0 +1,51 @@
+# ----------------------------
+# Python / Virtualenv
+# ----------------------------
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# ----------------------------
+# Secrets / local-only configs
+# ----------------------------
+.env
+.env.*
+config.json
+*.key
+*.pem
+*.crt
+
+# ----------------------------
+# Media / generated outputs
+# ----------------------------
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.avi
+
+# ----------------------------
+# Logs / temp files
+# ----------------------------
+*.log
+*.tmp
+*.bak
+
+# ----------------------------
+# OS junk
+# ----------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ----------------------------
+# VS Code / IDE
+# ----------------------------
+.vscode/
+
